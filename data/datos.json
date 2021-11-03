@@ -1,0 +1,67 @@
+{
+  "usuarios": [
+    {
+      "id": 2,
+      "nombre": "David",
+      "apellido": "Herrera",
+      "email": "david@gmail.com",
+      "edad": 14
+    },
+    {
+      "nombre": "juan",
+      "apellido": "Herrera",
+      "email": "juan@gmail.com",
+      "edad": 14,
+      "id": 4
+    },
+    {
+      "nombre": "Brayan De Jesus ",
+      "apellido": "Santos",
+      "email": "brayansan94@hotmail.es",
+      "edad": 14,
+      "id": 5
+    },
+    {
+      "nombre": "brayan",
+      "apellido": "Personales",
+      "email": "quinter34@hotmial.es",
+      "edad": 14,
+      "id": 7
+    },
+    {
+      "nombre": "james david",
+      "apellido": "rodriguez",
+      "email": "james@gmail.com",
+      "edad": 14,
+      "id": 8
+    },
+    {
+      "nombre": "Maria del  carmen",
+      "apellido": "Rodriguez",
+      "email": "maria@rodriguez",
+      "edad": 14,
+      "id": 9
+    },
+    {
+      "nombre": "andres jose",
+      "apellido": "lopez reyes",
+      "email": "lopez@hotmail.es",
+      "edad": 14,
+      "id": 10
+    },
+    {
+      "nombre": "lucas",
+      "apellido": "Santos",
+      "email": "quinter@hotmial.es",
+      "edad": "27",
+      "id": 11
+    },
+    {
+      "nombre": "brayan",
+      "apellido": "Santos",
+      "email": "brayansan93@hotmail.es",
+      "edad": "27",
+      "id": 12
+    }
+  ]
+}

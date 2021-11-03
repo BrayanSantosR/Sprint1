@@ -1,0 +1,184 @@
+
+body{
+    background: black;
+}
+header{
+ position:fixed;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ position: absolute;
+ width: 100%;
+ height: 112px; 
+ background-color:transparent;
+}
+
+#logo{
+    position: static;    
+    height: 64px;
+    left: 20px;
+    top: 24px;        
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 48px;  
+}
+#conteboto{
+    display: flex;
+ flex-direction: row;
+ background-color: transparent;
+ width: 30%;
+}
+.encabezado-button{
+    width: 70%;
+    height: 40px;
+    margin-left: 5px;
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+}
+
+#inputBuscar1{
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 0px;
+ position: static;
+ top: 34px;
+ flex: none;
+ order: 4;
+ flex-grow: 1;
+ margin: 0px 48px;
+ 
+
+ 
+}
+#btnBuscar{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 10px 24px;
+ position: static;
+ width: 72px;
+ height: 39px;
+ margin-left: 0;
+ top: 0px;
+ background-color: yellow;
+ border-radius: 0px 4px 4px 0px;
+ flex: none;
+ order: 5;
+ flex-grow: 0;
+ margin: 0px 0px;
+ border-radius: 0px 8px 8px 0px;
+}
+#inputBuscar{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 11px 12px;
+ position: static;
+ height: 39px;
+ left: 0px;
+ top: 0px;
+ background: #FFFFFE;
+ border: 1px solid #030107;
+ box-sizing: border-box;
+ border-radius: 8px 0px 0px 8px;
+ flex: none;
+ order: 0;
+ flex-grow: 1;
+ 
+    
+}
+/* copiando codigo*/
+#items{
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 5;    
+    align-items: flex-start;     
+    padding: 10px;
+    position: absolute;
+    width: 100%;    
+    left: 83px;
+    top: 538px;   
+    background-color:transparent;    
+}
+
+span{
+    position: absolute;
+    margin-top: 9%;
+    color:rgb(255, 251, 0);
+    background-color:black;
+    opacity: 0.6;
+    height: 35px;    
+    width: 5%;
+    text-align: center;
+    font-size:x-large;    
+    border-radius: 0px 15px 15px 0px;   
+}
+#template-card{
+    background-color: transparent;
+}
+.card{
+    position: static;
+    width: 250px;
+    height: 330px;
+    margin-top: 2%;
+    margin-left: 2%;   
+    background-color: rgb(91, 219, 31);
+}
+      
+
+.card img{
+    
+    height: 100%;      
+   
+}
+#formulario{
+    display: flex;    
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;    
+    background-color:transparent;
+    left: 20%;
+    padding:20px  ;
+    margin-bottom: 10px;
+    color: white;
+    width: 60%;
+    border:solid;
+
+}
+.form{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color:transparent;
+    width: 100%;
+   
+}
+.boton-operativo{
+    background-color: yellow;
+    width: 150px;
+    height: 50px;
+    
+}
+.form-control{
+    text-align: center;
+    width: 70%;
+    height: 30px;
+    top:10px;   
+    background-color:white;
+    color:black;
+    font-size: medium;
+}
+.slider{
+    background-color:rgb(189, 27, 27);
+    
+}
+.contenedorBotones{
+    padding: 20px;
+    
+    
+}
+

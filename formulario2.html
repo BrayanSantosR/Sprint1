@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+        
+            <img id="logo" src="./Style/imagenes/logo-blockBuster.png">
+            <div id="conteboto">
+                <button id="todas" class="encabezado-button" onclick="location.href='./index.html'">REGRESAR</button>
+                
+        
+    </header>
+
+    <main>
+        <div id="formulario" class="formulario"><br>
+        <form action="" class="form" id="form" ><!--functionSubmit(event)-->
+            <h2>FORMULARIO DE REGISTRO</h2>
+           
+            <div class="campo">
+                <div><label for="name">Nombre</label><br>
+                <input id="name" name="name" class=" form-control" type="text" placeholder=""><br>
+           
+                <label for="lastName" >Apellido</label><br>
+                <input id="lastName" name="lastName" class=" form-control" type="text" placeholder=""><br>
+           
+                <label for="email" >Email</label><br>
+                <input id="email" name="email" class=" form-control" type="text" placeholder=""><br>
+            
+                <label for="email" >Edad</label><br>
+                <input id="edad" name="edad" class=" form-control" type="number" placeholder=""><br>
+            
+            
+                <label id="label-edit" for="id">Id</label><br>
+                <input id="id" name="id" class="form-control" type="text" placeholder=""
+                readonly><br><br>
+            </div>
+            <div class="contenedorBotones">
+           
+                <button id="btnGuardar" class="boton-operativo"type="submit" class="">Guardar</button>
+            
+                <button id="btnCorreo" class="boton-operativo"type="button" class="">Buscar por correo</button>
+            
+                <button id="btnEditar" class="boton-operativo" type="button" class="">Editar</button>
+           
+                <button id="btnEliminar" class="boton-operativo"  type="button" class="">Eliminar</button>
+            
+            </div>  
+              
+            
+           
+        </form>
+
+       
+    </main>
+</body>
+<script src="./script/usuarios.js"></script>
+
+</html>
